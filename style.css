@@ -66,7 +66,7 @@ body {
 
 .top .title {
     font-size: 3.5rem;
-    margin-bottom: 0em;
+    margin-bottom: 0rem;
 }
 
 .top .container p {
@@ -121,7 +121,7 @@ body {
     display: inline;
     margin: 0;
     height: 100%;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    /* box-shadow: 0 4px 10px rgba(0,0,0,0.1); */
 }
 
 .top .flex_container .photo2 {
@@ -138,77 +138,50 @@ body {
 }
 
 /* section 2 */
-.icon{
-    display: flex;
-    justify-content: center;
-    width: 80%; 
-    gap: 300px;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    top: 80%;
-    left: 50%;
-  }
-  
-  .menu{
-      display: flex;
-      justify-content: center;
-      width: 80%; 
-      transform: translate(-50%, -50%);
-      left: 50%;
-      position: absolute;
-      gap: 290px;
-      top: 90%;
-  }
-  
-  .mailbox{
-      background: none;
-      border: none;
-      /* font-size: 30px; = 1.875rem*/
-      font-size: 1.4rem;
-      cursor: pointer;
-    }
-  
-    .mailbox:hover {
-      color: blue;
-      text-decoration: underline;
-    }
-  
-    .clock {
-      background: none;
-      border: none;
-      /* font-size: 30px; = 1.875rem*/
-      font-size: 1.4rem;
-      cursor: pointer;
-    }
-  
-    .clock:hover {
-      color: blue;
-      text-decoration: underline;
-    }
-  
-    .lock {
-      background: none;
-      border: none;
-      /* font-size: 30px; = 1.875rem*/
-      font-size: 1.4rem;
-      cursor: pointer;
-    }
-  
-    .lock:hover {
-      color: blue;
-      text-decoration: underline;
-    }
+
+.menu .flex_container {
+  display: flex;
+  justify-content: space-between;
+  justify-self: center;
+  width: 38rem;
+}
+
+.menu .flex_container .wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.menu .flex_container .wrapper .icon {
+  width: 7.5rem;
+}
+
+.menu .flex_container .wrapper a {
+  color: black;
+  text-decoration: none;
+}
+.menu .flex_container .wrapper a:visited {
+  color: none;
+}
+
+.menu .flex_container .wrapper a .text {
+  font-size: 1.3rem
+}
+
 /* section 3 */
 .contributors {
-    padding: 20px 0; 
+    /* padding: 20px 0;  */
+    /* padding: 1rem 0; */
     position: relative;
     bottom: 0px;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 0 -1px 5px rgba(0,0,0,0.1);
-    margin-top: 400px;
+    /* box-shadow: 0 -1px 5px rgba(43, 42, 42, 0.1); */
+    /* margin-top: 400px; */
+    margin-top: 1rem;
 }
 
 .contributors h2 {
